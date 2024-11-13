@@ -1,0 +1,344 @@
+icon                "tradin2.png"
+description         "This is a very simple mod that creates a new Orc King class."
+
+#newritpow
+#newritual "tradin' gold 10"
+#descr "Tradin some gold"
+#level 1
+#cost 0 10
+#free
+#soundfx             19
+#apcost 0
+#addstring "addresources 0 0 10"
+
+#---------
+newmonster "Tradah 10g"
+descr "It is a 10g tradah"
+nametype 0
+hp 20
+mr 5
+str 4
+armor 0
+mor 4
+rank -1
+copyspr "Goblin Spearman"
+
+playerevent
++minturnnbr 1
++chance 100
++hasunithere -1 "Tradah 10g"
+addresources -2 0 10
+killunit 9999
+message -2 "Received Tradah 10g"
+endevent
+#---------
+newmonster "Tradah 50g"
+descr "It is a 50g tradah"
+nametype 0
+hp 20
+mr 5
+str 4
+armor 0
+mor 4
+rank -1
+copyspr "Goblin Spearman"
+
+playerevent
++minturnnbr 1
++chance 100
++hasunithere -1 "Tradah 50g"
+addresources -2 0 50
+killunit 9999
+message -2 "Received Tradah 50g"
+endevent
+#---------
+newmonster "Tradah 100g"
+descr "It is a 100g tradah"
+nametype 0
+hp 20
+mr 5
+str 4
+armor 0
+mor 4
+rank -1
+copyspr "Goblin Spearman"
+
+playerevent
++minturnnbr 1
++chance 100
++hasunithere -1 "Tradah 100g"
+addresources -2 0 100
+killunit 9999
+message -2 "Received Tradah 100g"
+endevent
+#---------
+newmonster "Tradah 10iron"
+descr "It is a 10iron tradah"
+nametype 0
+hp 20
+mr 5
+str 4
+armor 0
+mor 4
+rank -1
+copyspr "Goblin Spearman"
+
+playerevent
++minturnnbr 1
++chance 100
++hasunithere -1 "Tradah 10iron"
+addresources -2 1 10
+killunit 9999
+message -2 "Received Tradah 10iron"
+endevent
+#---------
+newmonster "Tradah 50iron"
+descr "It is a 50iron tradah"
+nametype 0
+hp 20
+mr 5
+str 4
+armor 0
+mor 4
+rank -1
+copyspr "Goblin Spearman"
+
+playerevent
++minturnnbr 1
++chance 100
++hasunithere -1 "Tradah 50iron"
+addresources -2 1 50
+killunit 9999
+message -2 "Received Tradah 50iron"
+endevent
+#---------
+newmonster "Tradah 100iron"
+descr "It is a 100iron tradah"
+nametype 0
+hp 20
+mr 5
+str 4
+armor 0
+mor 4
+rank -1
+copyspr "Goblin Spearman"
+
+playerevent
++minturnnbr 1
++chance 100
++hasunithere -1 "Tradah 100iron"
+addresources -2 1 100
+killunit 9999
+message -2 "Received Tradah 100iron"
+endevent
+#---------
+#newclass
+#setclassname        "The Orc King"
+#addstartunits       "Goblin" 10
+#addstartunits       "Goblin Archer" 10
+#setmaincom          "Goblin Shaman"
+#addstartcom         "Goblin Chieftain"
+#addstartunits       "Goblin Spearman" 5
+#addcomrec "Tradah 10g" 100 10 0 0
+#addcomrec "Tradah 50g" 100 50 0 0
+#addcomrec "Tradah 100g" 100 100 0 0
+#addcomrec "Tradah 10iron" 100 0 0 10
+#addcomrec "Tradah 50iron" 100 0 0 50
+#addcomrec "Tradah 100iron" 100 0 0 100
+
+selectclass 1 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 2 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 3 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 4 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 5 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 6 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 7 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 8 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 9 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 10 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 11 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 12 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 13 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 14 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 15 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 16 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 17 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 18 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 19 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 20 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 21 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 22 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 23 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 24 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 25 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 26 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 27 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
+selectclass 28 # Pale Ones
+addcomrec "Tradah 10g" 100 10 0 0
+addcomrec "Tradah 50g" 100 50 0 0
+addcomrec "Tradah 100g" 100 100 0 0
+addcomrec "Tradah 10iron" 100 0 0 10
+addcomrec "Tradah 50iron" 100 0 0 50
+addcomrec "Tradah 100iron" 100 0 0 100
